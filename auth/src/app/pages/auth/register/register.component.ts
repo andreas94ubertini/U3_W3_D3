@@ -14,7 +14,8 @@ export class RegisterComponent {
     nome : '',
     cognome : '',
     email : '',
-    password : ''
+    password : '',
+    profilePic:'...',
   }
 
   constructor(
@@ -26,7 +27,7 @@ export class RegisterComponent {
     this.authSvc.signUp(this.formData)
     .subscribe(res => {
       console.log('registrato')
-      this.router.navigate(['/register'])
+      this.router.navigate([''])
     })
   }
 

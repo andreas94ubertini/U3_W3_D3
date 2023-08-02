@@ -4,6 +4,9 @@
     <input type="text" class="form-control mt-2" placeholder="Nome" name="nome" [(ngModel)]="formData.nome">
     <input type="text" class="form-control mt-2" placeholder="Cognome" name="cognome" [(ngModel)]="formData.cognome">
     <input type="email" class="form-control mt-2" placeholder="Email" name="email" [(ngModel)]="formData.email">
+    <label for="profilePic"> carica la tua immagine
+      <input type="file" accept="image/png, image/gif, image/jpeg" class="form-control mt-2" placeholder="profilePic" id="profilePic" name="profilePic" [(ngModel)]="formData.profilePic">
+    </label>
     <input type="password" class="form-control mt-2" placeholder="Password" name="password" [(ngModel)]="formData.password">
     <div class="d-flex gap-2 mt-3 mt-2">
     <button (click)="register()" class="btn btn-success">Registrati</button>

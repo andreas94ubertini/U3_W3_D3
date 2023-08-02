@@ -1,10 +1,11 @@
-
+<div class="container mt-2">
 <form>
-
-  <input type="email" class="form-control" placeholder="Email" name="email" [(ngModel)]="formData.email">
-  <input type="password" class="form-control" placeholder="Password" name="password" [(ngModel)]="formData.password">
-  <button (click)="login()" class="btn btn-success">Accedi</button>
-
+  <input type="email" class="form-control mt-2" placeholder="Email" name="email" [(ngModel)]="formData.email">
+  <input type="password" class="form-control mt-2" placeholder="Password" name="password" [(ngModel)]="formData.password">
+  <div class="d-flex gap-2 mt-2">
+    <button (click)="login()" class="btn btn-success">Accedi</button>
+    <a class="btn btn-secondary" routerLink="/auth">Indietro</a>
+  </div>
 </form>
+</div>
 
-<a class="btn btn-secondary" routerLink="/auth">Indietro</a>

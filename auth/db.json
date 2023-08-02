@@ -1,46 +1,5 @@
 {
   "users": [
-    {
-      "email": "vojo@mailinator.com",
-      "password": "$2a$10$EFqm37ffgH9Xv4BJi.TZp.gjddSCENtd6OXco9B4IU5K3vOYWzjn2",
-      "nome": "Sint adipisci debiti",
-      "cognome": "Quo ab ut lorem adip",
-      "id": 1
-    },
-    {
-      "email": "xaci@mailinator.com",
-      "password": "$2a$10$X2p11yAkku8X4Mqfym9v7ukPeGGGWKuDIBkPgYjrBPJ277dvXlgUq",
-      "nome": "Voluptatem voluptat",
-      "cognome": "Similique itaque imp",
-      "id": 2
-    },
-    {
-      "email": "zozido@mailinator.com",
-      "password": "$2a$10$8TBG.3NubQcK/7hOLLvVuurgH1EgZzZJBJattiz/Hh2pi6wt2tN9W",
-      "nome": "Cillum dolore volupt",
-      "cognome": "Quo quam error omnis",
-      "id": 3
-    },
-    {
-      "email": "ube@gmail.com",
-      "password": "$2a$10$BRgXRYSygOU8WShYwMd5zOTt0UY.idW93RcJQxzQ1I36NfnKv6Mry",
-      "nome": "andreas",
-      "cognome": "ubertini",
-      "id": 4
-    },
-    {
-      "email": "prova@prova.it",
-      "password": "$2a$10$q3kOhNX61Yeho90EJY7Eaee6blN.jT1yotNjaW4mb0Q7qV0QFLUgK",
-      "nome": "prova",
-      "cognome": "prova",
-      "id": 5
-    },
-    {
-      "email": "prova1@prova.it",
-      "password": "$2a$10$dMWjtRxM2vAZEMk861crDuNbmGMxRSA0z3Vk1GRqjWxhdROmp1MBW",
-      "nome": "prova1",
-      "cognome": "prova1",
-      "id": 6
-    }
+
   ]
 }

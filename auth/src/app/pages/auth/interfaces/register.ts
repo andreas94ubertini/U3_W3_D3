@@ -3,4 +3,5 @@ export interface IRegister {
   cognome:string;
   email:string;
   password:string;
+  profilePic:string;
 }
