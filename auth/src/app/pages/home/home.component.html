@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12 d-flex">
+      <p class="m-o h1">Benvenuto</p><p class="m-o h1" *ngIf="user">&nbsp;{{user.nome.charAt(0).toUpperCase()}}{{user.nome.slice(1)}}</p>
+    </div>
+  </div>
+  <div class="row mt-5" *ngIf="!user">
+    <div class="col-12 d-flex gap-3 justify-content-center">
+      <a class="btn btn-success" routerLink="/auth/login">Accedi</a>
+      <a class="btn btn-primary" routerLink="/auth/register">Registrati</a>
+    </div>
+  </div>
+</div>

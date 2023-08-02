@@ -1,0 +1,6 @@
+<div *ngIf="user" class="container">
+  <p>{{user.nome}}</p>
+  <p>{{user.cognome}}</p>
+  <p>{{user.email}}</p>
+<button (click)="logOut()" class="btn btn-danger">LogOut</button>
+</div>

@@ -1,0 +1,15 @@
+<div class="container mt-3">
+  <form>
+
+    <input type="text" class="form-control mt-2" placeholder="Nome" name="nome" [(ngModel)]="formData.nome">
+    <input type="text" class="form-control mt-2" placeholder="Cognome" name="cognome" [(ngModel)]="formData.cognome">
+    <input type="email" class="form-control mt-2" placeholder="Email" name="email" [(ngModel)]="formData.email">
+    <input type="password" class="form-control mt-2" placeholder="Password" name="password" [(ngModel)]="formData.password">
+    <div class="d-flex gap-2 mt-3 mt-2">
+    <button (click)="register()" class="btn btn-success">Registrati</button>
+
+    <a class="btn btn-secondary" routerLink="/auth">Indietro</a>
+    </div>
+  </form>
+
+</div>
