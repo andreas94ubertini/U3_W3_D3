@@ -6,6 +6,7 @@ import { JwtHelperService } from '@auth0/angular-jwt';
 import { Router } from '@angular/router';
 import { ILogin } from './interfaces/login';
 import {BehaviorSubject, map, Observable, tap} from 'rxjs';
+import {IUser} from "./interfaces/user";
 
 @Injectable({
   providedIn: 'root'
@@ -31,6 +32,9 @@ export class AuthService {
 
     this.restoreUser()
 
+   }
+   getAll():Observable<IUser[]>{
+    return this.http.get<IUser[]>('http://localhost:3000/users')
    }
 
   login(data:ILogin){

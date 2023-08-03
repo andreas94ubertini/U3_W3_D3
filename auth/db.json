@@ -1,5 +1,20 @@
 {
   "users": [
-
+    {
+      "email": "prova@gmail.com",
+      "password": "$2a$10$AlNdw1CNjHUxkIzodqquG.xG2s3/PlrKRShH3gTAJhO4WOhGk7ka.",
+      "nome": "prova",
+      "cognome": "prova",
+      "profilePic": "...",
+      "id": 1
+    },
+    {
+      "email": "prova2@gmail.com",
+      "password": "$2a$10$6nzyEp1DYrma/.jxMPZbq.JMvVNuxbmqy5tJmI3GD.jPtcUVFt1Ey",
+      "nome": "prova2",
+      "cognome": "prova",
+      "profilePic": "...",
+      "id": 2
+    }
   ]
 }

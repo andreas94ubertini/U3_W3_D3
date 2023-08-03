@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './pages/home/home.component';
 import { HttpClientModule } from '@angular/common/http';
+import { AllusersComponent } from './pages/allusers/allusers.component';
 
 
 
@@ -14,6 +15,7 @@ import { HttpClientModule } from '@angular/common/http';
     AppComponent,
     HeaderComponent,
     HomeComponent,
+    AllusersComponent,
 
   ],
   imports: [
